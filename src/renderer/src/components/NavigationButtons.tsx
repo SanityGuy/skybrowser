@@ -1,4 +1,5 @@
 import BrowserButton from './BrowserButton'
+import { ArrowLeft, ArrowRight, RotateCcw, X } from 'lucide-react'
 
 interface NavigationButtonsProps {
   canBack: boolean
@@ -14,15 +15,15 @@ export default function NavigationButtons({ canBack, canForward, isLoading, onBa
   return (
     <div className="flex items-center gap-0.5">
       <BrowserButton onClick={onBack} disabled={!canBack} title="Back">
-        ←
+        <ArrowLeft />
       </BrowserButton>
 
       <BrowserButton onClick={onForward} disabled={!canForward} title="Forward">
-        →
+        <ArrowRight />
       </BrowserButton>
 
       <BrowserButton onClick={isLoading ? onStop : onReload} title={isLoading ? 'Stop' : 'Reload'}>
-        {isLoading ? '×' : '↻'}
+        {isLoading ? <X /> : <RotateCcw />}
       </BrowserButton>
     </div>
   )

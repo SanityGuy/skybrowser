@@ -25,7 +25,7 @@ export default function AddressBar({ value, inputRef, onChange, onNavigate }: Ad
   }, [inputRef])
 
   return (
-    <div className="flex h-8 flex-1 items-center rounded-lg border border-zinc-800 bg-zinc-900 px-3 transition-colors focus-within:border-zinc-600 focus-within:bg-zinc-800">
+    <div className="flex h-8 flex-1 items-center rounded-lg border border-zinc-800 bg-zinc-900 px-3 transition-colors focus-within:border-blue-500 focus-within:bg-zinc-800">
       <span className="mr-2 text-sm text-zinc-500">⌕</span>
 
       <input

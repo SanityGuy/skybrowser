@@ -37,7 +37,7 @@ export default function BrowserToolbar({ inputValue, inputRef, canBack, canForwa
 
       <button
         onClick={navigate}
-        className="h-8 rounded-md bg-blue-600 px-3 text-sm font-medium transition-colors hover:bg-blue-500 active:bg-blue-700"
+        className="h-8 rounded-md bg-transparent px-5 text-sm border-1 border-blue-600 font-medium transition-colors hover:bg-blue-500 active:bg-zinc-700"
       >
         Go
       </button>
