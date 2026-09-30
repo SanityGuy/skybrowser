@@ -1,34 +1,14 @@
-# my-browser
+# SkyBrowser
+A simple free open sourced web browser made using Electron to provide privacy while including premium interface & features
 
-An Electron application with React and TypeScript
+## Features
+- 🔍 Search engine
+- 🌐 URL bar
+- 🌐 Navigation buttons
+- 🌐 Address bar
 
-## Recommended IDE Setup
+## Contributing
+Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request.
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+## License
+This project is licensed under the MIT License
